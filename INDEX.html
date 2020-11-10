@@ -6,6 +6,30 @@
 
     <link href="css.css" rel="stylesheet" type="text/css" />
 
+	<link href="css/lightbox.css" rel="stylesheet">
+
+<script src="js/jquery-1.9.1.js"></script>
+
+<script type="text/javascript" src="js/fadeslideshow.js"> </script>
+	
+	
+<script type="text/javascript">
+
+var mygallery=new fadeSlideShow({
+	wrapperid: "aboutIMG", 
+	dimensions: ['100%', '100%'],
+	            
+	imagearray: [
+		["images/magazine.jpg", "index.html", "", ""] 
+	], 
+	displaymode: {type:'auto', pause:2000, cycles:0, wraparound:false},
+	persist: false,
+	fadeduration: 500, 
+	descreveal: "ondemand",
+	togglerid: ""
+})
+</script>	
+
 </head>
 
 <body>
@@ -53,6 +77,10 @@ recently with desktop publishing software like Aldus<br>
 PageMaker including versions of Lorem Ipsum.</p> 
 
 <br><br><br><br>
+
+     <div id="aboutIMG" align="center"></div>
+
+
 </div>
 
 
