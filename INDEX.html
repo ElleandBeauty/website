@@ -1,113 +1,77 @@
 <!doctype html>
 <html>
-<head>
+	<!--I decided to tab in the entire document just because I think it looks nicer. -->
+	<head>
 
-    <title> Elle & Beauty Magazine</title>
+		<title> Elle & Beauty Magazine</title>
 
-    <link href="css.css" rel="stylesheet" type="text/css" />
+		<link href="css.css" rel="stylesheet" type="text/css">
 
-	<link href="css/lightbox.css" rel="stylesheet">
+	</head>
 
-<script src="js/jquery-1.9.1.js"></script>
+	<body>
 
-<script type="text/javascript" src="js/fadeslideshow.js"> </script>
-	
-	
-<script type="text/javascript">
+		<div id="headerA">
+			<div id="nav1">
+				<a href="INDEX.html"> <img src="images/LogoHeaderWhite.png" align="left"> </a>
+				<button class="btn"> <a href="INDEX.html" class="navLink">HOME</a> </button>
+				<button class="btn"> <a href="AboutUs.html" class="navLink">OUR STORY</a> </button>
+				<button class="btn"> <a href="AboutUs.html" class="navLink">JOIN THE TEAM</a> </button>
+				<button class="btn"> <a href="AboutUs.html" class="navLink">CONTACT US</a> </button>
+			</div>
+		</div>
 
-var mygallery=new fadeSlideShow({
-	wrapperid: "aboutIMG", 
-	dimensions: ['100%', '100%'],
-	            
-	imagearray: [
-		["images/magazine.jpg", "index.html", "", ""] 
-	], 
-	displaymode: {type:'auto', pause:2000, cycles:0, wraparound:false},
-	persist: false,
-	fadeduration: 500, 
-	descreveal: "ondemand",
-	togglerid: ""
-})
-</script>	
+		<br>
+		
+		<div id="headerP">
+		</div>
+		<img src="images/logoBIG.png" id="fadein" height="340em" width="1200px" style="opacity:0" onload="document.getElementById('fadein').style.opacity='1'">
+<!--I removed your multiple <br> tags, there are other ways to create the space you want to. In this case I altered the 
+size of "headerP" to achieve the same affect. And then I added another div for spacing.-->
 
-</head>
+		<div style="height:30em;width:100%;display:block;">
+		</div>
+		<div id="content">
+			<br>
+			<h2>Welcome to Elle & Beauty Magazine!</h2>
+			
+				<p align="center"> This is our website currently under Construction
+				<br> Welcome to Elle and Beauty
+				<br>Hi, Jan this is me procrastinating
+				<br>ok time to dig in.
+				<br>it to make a type specimen book. It has survived not
+				<br>only five centuries, but also the leap into electronic
+				<br>typesetting, remaining essentially unchanged. It was
+				<br>popularised in the 1960s with the release of Letraset
+				<br>sheets containing Lorem Ipsum passages, and more 
+				<br>recently with desktop publishing software like Aldus
+				<br> PageMaker including versions of Lorem Ipsum.
+				</p> 
+				<br><br><br><br>
 
-<body>
-
-<div id="headerA">
-
-<ul>
-<div id="nav1" <a href="INDEX.html"> <img src="images/LogoHeaderWhite.png" align="left"/> 
-
-
-
-    <button class="btn"> <a href="INDEX.html" class="navLink">HOME</a> </button>
-    <button class="btn"> <a href="AboutUs.html" class="navLink">OUR STORY</a> </button>
-	<button class="btn"> <a href="AboutUs.html" class="navLink">JOIN THE TEAM</a> </button>
-	<button class="btn"> <a href="AboutUs.html" class="navLink">CONTACT US</a> </button>
-
-
-</div>
-</ul>
-
-</div>
-</div>
-
-
-	<div id="headerP">
-	
-	</div>
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<div id="content">
-
-<br/>
-<h2>Welcome to Elle & Beauty Magazine!</h2>
-<ul>
-<p align="center"> Lorem Ipsum is simply dummy text of the printing<br> 
-and typesetting industry. Lorem Ipsum has been the <br>
-industry's standard dummy text ever since the 1500s, when<br>
-an unknown printer took a galley of type and scrambled<br>
-it to make a type specimen book. It has survived not<br>
-only five centuries, but also the leap into electronic<br>
-typesetting, remaining essentially unchanged. It was<br>
-popularised in the 1960s with the release of Letraset <br>
-sheets containing Lorem Ipsum passages, and more <br>
-recently with desktop publishing software like Aldus<br> 
-PageMaker including versions of Lorem Ipsum.</p> 
-
-<br><br><br><br>
-
-     <div id="aboutIMG" align="center"></div>
+				<div id="aboutIMG" align="center"></div>
+				</div>
 
 
-</div>
+				<div id="footer" align="center">
+					<br>
+						<a href="INDEX.html" class="navLink">HOME</a>
+						<a href="AboutUs.html" class="navLink">OUR STORY</a>
+						<a href="AboutUs.html" class="navLink">JOIN THE TEAM</a>
+						<a href="AboutUs.html" class="navLink">CONTACT US</a>
+						<br>
+
+		<a href="https://www.facebook.com/ElleAndBeauty" class="navLink"><img src="images/fbLogo.png" width="30px" height="30px" align="center"> </a>
+		<a href="https://www.facebook.com/ElleAndBeauty" class="navLink"><img src="images/igLogo.png" width="30px" height="30px" align="center"> </a>
+		<a href="https://www.facebook.com/ElleAndBeauty" class="navLink"><img src="images/twtLogo.png" width="30px" height="30px" align="center"> </a>
 
 
-<div id="footer" align="center">
-<br/>
+		<div id="footerText">
+		<p> Copyright 2020: Elle & Beauty Magazine </p>
+		</div>
+		</div>
 
-<ul>
-    
-   <a href="INDEX.html" class="navLink">HOME</a>
-    <a href="AboutUs.html" class="navLink">OUR STORY</a>
-	<a href="AboutUs.html" class="navLink">JOIN THE TEAM</a>
-	<a href="AboutUs.html" class="navLink">CONTACT US</a>
-
-</ul>
-<br/>
-
-<a href="https://www.facebook.com/ElleAndBeauty" class="navLink"><img src="images/fbLogo.png" width="30px" height="30px" align="center"> </a>
-<a href="https://www.facebook.com/ElleAndBeauty" class="navLink"><img src="images/igLogo.png" width="30px" height="30px" align="center"> </a>
-<a href="https://www.facebook.com/ElleAndBeauty" class="navLink"><img src="images/twtLogo.png" width="30px" height="30px" align="center"> </a>
-
-
-<div id="footerText">
-<p> Copyright 2020: Elle & Beauty Magazine </p>
-</div>
-</div>
-
-</body>
+	</body>
 
 
 </html> 
