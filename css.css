@@ -1,8 +1,8 @@
 body {
-    background-image: url("images/BANNERtwo.jpg");
+    background-image: url("images/FBNNR.jpg");
 	background-repeat:no-repeat;
 	background-attachment: fixed;
-    font-family: Arial;
+	font-family: Arial;
 	margin-left: -0.1em
 
 }
@@ -56,10 +56,27 @@ background-color:black;
 }
 
 
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+
+
 ul {
 	
 	text-align:center;
 }
+
+
+
+
+#fadein {
+	opacity: 0;
+	transition:opacity 7s;
+	position: relative;
+}
+
+
 
 #nav1 a {
 	
@@ -72,23 +89,21 @@ ul {
 
 #headerP {
 	width: 1579px;
-	height:679px;
-	background-image: url("images/HeaderGIF.gif");
-	
+	height:12.5em;
+	background-repeat:no-repeat;
+	opacity:1;
 }
 
 #headerA {
 	width:100%;
-	header:100%;
+	height:8em;
 	font-family:arial;
-	background:black;
+	background-image: url("images/raindropmenu.png");
+	background-size: 100% 100%;
 	position:fixed;
 	text-align:center;
-	z-index:1000;
 	margin-top:-0.5em;
 }	
-
-
 
 #footer {
 	
@@ -114,7 +129,8 @@ ul {
 
 
 .btn {
-  background-color: black;
+  /* Changed the background color to rgba which includes a setting for opacity */
+  background-color: rgba(0, 0, 0, 0.1);
   border: none;
   color: black;
   padding: 16px 30px;
@@ -125,4 +141,4 @@ ul {
   transition: 0.2s;
 }
 
-.btn:hover {opacity: 0.1}
+.btn:hover {opacity: 0.4}
